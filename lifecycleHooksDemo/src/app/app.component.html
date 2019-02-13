@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <h1>
+    Lifecycle Hooks
+  </h1>
+</div>
+<div>
+  <app-child-component [title]='parentTitle' #childComponent></app-child-component>
+  <button (click)='onClick()'>Change Value</button>
+</div>
+<p #pTag>Before view init</p>
